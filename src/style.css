@@ -36,3 +36,8 @@ h1{
 .meal-container div img{
     width: 50%;
 }
+input{
+    margin:1em auto;
+    text-align: center;
+
+}
