@@ -1,21 +1,23 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import MealCard from "../components/MealCard";
 
 const Meal = () => {
   const [mealData, setMealData] = useState([]);
   const [searchedMeal, setSearchedMeal] = useState("");
-  useEffect(() => {
-    getMeal();
-  }, []);
 
-  const getMeal = () => {
+  const getMeal = useCallback(() => {
     axios
       .get(
         "https://www.themealdb.com/api/json/v1/1/search.php?s=" + searchedMeal
       )
       .then((res) => setMealData(res.data.meals));
-  };
+  }, [searchedMeal]);
+
+  useEffect(() => {
+    getMeal();
+  }, [getMeal]);
+
   return (
     <div>
       <h1>React Meal</h1>
