@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.846b51c0.css",
-    "main.js": "/static/js/main.f6e0bbfa.js",
+    "main.css": "/static/css/main.cf47a0c1.css",
+    "main.js": "/static/js/main.ab10bed3.js",
     "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.ea32261131becc79ea84.ttf",
     "index.html": "/index.html",
-    "main.846b51c0.css.map": "/static/css/main.846b51c0.css.map",
-    "main.f6e0bbfa.js.map": "/static/js/main.f6e0bbfa.js.map"
+    "main.cf47a0c1.css.map": "/static/css/main.cf47a0c1.css.map",
+    "main.ab10bed3.js.map": "/static/js/main.ab10bed3.js.map"
   },
   "entrypoints": [
-    "static/css/main.846b51c0.css",
-    "static/js/main.f6e0bbfa.js"
+    "static/css/main.cf47a0c1.css",
+    "static/js/main.ab10bed3.js"
   ]
 }
